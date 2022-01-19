@@ -1,0 +1,19 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    width: max-content;
+    border: 1px solid red;
+    padding: 20px
+}
+
+p {
+    display: inline;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    display: block;
+}
