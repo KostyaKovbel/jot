@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="./main.css">
   </head>
   <body>
-    <form class="form" action="/">
-      <p><input type="radio" name="var" value="var1" required>var1</p>
-      <p><input type="radio" name="var" value="var2">var2</p>
-      <p><input type="radio" name="var" value="var3">var3</p>
-      <button>submit</button>
+    <form id="form" class="form" action="/">
+      <p><input type="radio" name="var" class="field" required>var1</p>
+      <p><input type="radio" name="var" class="field">var2</p>
+      <p><input type="radio" name="var" class="field">var3</p>
+      <button onsubmit="return maVal(1)">submit</button>
       
     </form>
   </body>
+  <script src="main.js"></script>
 </html>
